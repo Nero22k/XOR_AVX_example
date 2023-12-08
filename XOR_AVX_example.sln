@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XOR_AVX_example", "XOR_AVX_example\XOR_AVX_example.vcxproj", "{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Debug|x64.ActiveCfg = Debug|x64
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Debug|x64.Build.0 = Debug|x64
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Debug|x86.Build.0 = Debug|Win32
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Release|x64.ActiveCfg = Release|x64
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Release|x64.Build.0 = Release|x64
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Release|x86.ActiveCfg = Release|Win32
+		{EEAB8DC0-0C5A-4DDE-A56B-CC35808E625B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DF83C7E-3060-4D02-A428-26E7588F0F41}
+	EndGlobalSection
+EndGlobal
