@@ -1,7 +1,7 @@
 #pragma once
 
-// pu9LPsfXIpN1aP29lDd8g4YlZX5zrJ*
-char key[] = { 'p', 'u', '9', 'L', 'P', 's', 'f', 'X', 'I', 'p', 'N', '1', 'a', 'P', '2', '9', 'l', 'D', 'd', '8', 'g', '4', 'Y', 'l', 'Z', 'X', '5', 'z', 'r', 'J', '*', 0};
+// pu9LPsfXIpN1aP29lDd8g4YlZX5zrJE
+char key[] = { 'p', 'u', '9', 'L', 'P', 's', 'f', 'X', 'I', 'p', 'N', '1', 'a', 'P', '2', '9', 'l', 'D', 'd', '8', 'g', '4', 'Y', 'l', 'Z', 'X', '5', 'z', 'r', 'J', 'E', 0};
 
 unsigned char payload[] = {
     0xE0, 0xE5, 0xA9, 0xDC, 0xC0, 0xE3, 0xF6, 0xC8, 0xD9, 0x3D, 0x14, 0x70,
