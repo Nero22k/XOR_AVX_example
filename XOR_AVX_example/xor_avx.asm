@@ -7,13 +7,13 @@ xor_avx proc    ; rcx = data, rdx = data_size, r8 = key, r9 = key_size
     ; Calculate the number of full blocks and remainder
     mov eax, edx
     xor edx, edx       ; Clear RDX for DIV instruction
-    mov ebx, 32
+    mov bl, 32
     div ebx            ; RAX = number of full blocks, RDX = remainder
 
 full_block_loop:
-    cmp eax, 0
+    cmp al, 0
     je handle_remainder
-    dec eax
+    dec al
 
     vmovdqu ymm0, ymmword ptr [rcx + r10]   ; Load 32 bytes from the offset
     vpxor ymm0, ymm0, ymm1                  ; XOR operation
@@ -23,7 +23,7 @@ full_block_loop:
     jmp full_block_loop
 
 handle_remainder:
-    test edx, edx         ; Check if there is any remainder
+    test dl, dl         ; Check if there is any remainder
     jz end_xor            ; Jump to end if no remainder
 
     ; Calculate the start of the remainder in the data
